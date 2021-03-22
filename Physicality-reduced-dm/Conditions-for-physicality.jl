@@ -20,9 +20,6 @@ end
 
 
 
-
-
-
 #### On the right of the "=" I use Jie notation for identifying the correlator's value
 x1x2 = SDP_corr[1,4]
 x1x3 = SDP_corr[1,7]
@@ -42,5 +39,7 @@ XXYY    = xxyy*(TEN([X,X,Y,Y])+TEN([X,X,Z,Z]) + TEN([Y,Y,X,X])+TEN([Y,Y,Z,Z]) + 
 XYXY    = xyxy*(TEN([X,Y,X,Y])+TEN([X,Z,X,Z]) + TEN([Y,X,Y,X])+TEN([Y,Z,Y,Z]) + TEN([Z,X,Z,X])+TEN([Z,Y,Z,Y]))
 XYYX    = xyyx*(TEN([X,Y,Y,X])+TEN([X,Z,Z,X]) + TEN([Y,X,X,Z])+TEN([Y,Z,Z,Y]) + TEN([Z,X,X,Z])+TEN([Z,Y,Y,Z]))
 
+
+####CONDITION FOR PHYSICALITY
 ####This matrix must be positive semidefinite
 ρ4 = (1/16.)*(TEN([I,I,I,I])+X12+X13+X14+XXXX+XXYY+XYXY+XYYX)
