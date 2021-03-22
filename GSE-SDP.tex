@@ -9,6 +9,9 @@
 \usepackage{amssymb}
 \usepackage{float}
 \usepackage{subcaption}
+
+\synctex=1
+
 \begin{document}
 \title{Review of the benchmarks}
 \maketitle
@@ -148,9 +151,9 @@ In figure \ref{Fig:GSE-r-B1} we see that increasing $r$ improves the lower bound
  
 The constraint corresponding to the $k$-body physicality is
 \begin{equation}
-\frac{1}{2^k} \left( 1 + \sum_{\vec{x}} \langle \sigma^{x_1}_{1}\sigma^{x_2}_{2}\dots \rangle \sigma^{x_1}_{1}\sigma^{x_2}_{2}\dots \right) \geq 0 ,
+\frac{1}{2^k} \left( 1 + \sum_{\vec{x}} \langle \sigma^{x_1}_{1}\sigma^{x_2}_{2}\dots \sigma^{x_k}_{k}\rangle \sigma^{x_1}_{1}\sigma^{x_2}_{2}\dots \sigma^{x_k}_{k}\right) \geq 0 ,
 \end{equation}
-a positive constraint linear in the moments,  where $\vec{x}$ are all the $k$ elements vectors, where each element $x_i \in \{0,1,2,3\}$ and $\sigma^{0}_{i}=\mathbb{I}_{i},$ $\sigma^{1}_{i}=\sigma^{x}_{i},$ $\sigma^{2}_{i}=\sigma^{y}_{i},$ $\sigma^{3}_{i}=\sigma^{z}_{i},$.
+a positive constraint linear in the moments,  where the elements of $\vec{x}$ are $x_i \in \{0,1,2,3\}$ and $\sigma^{0}_{i}=\mathbb{I}_{i},$ $\sigma^{1}_{i}=\sigma^{x}_{i},$ $\sigma^{2}_{i}=\sigma^{y}_{i},$ $\sigma^{3}_{i}=\sigma^{z}_{i}$ and $i=1\dotsk$.
 
 Note that we are not limited by the size of the moments in the NPA part. If the moments in the moment matrix are not enough to reconstruct the previous m-particle matrix, we introduce new variables and demand positivity of the resulting operator (still linear in the unknowns)
 
