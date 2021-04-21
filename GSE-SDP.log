@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2021.1.26)  22 MAR 2021 12:05
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2021.1.26)  22 MAR 2021 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -485,16 +485,6 @@ File: Figures/B1/NN_correlations_L=50.png Graphic file (type bmp)
 [3]
 File: Figures/B1/NextNN_correlations_L=50.png Graphic file (type bmp)
 <Figures/B1/NextNN_correlations_L=50.png>
-
-! Undefined control sequence.
-l.156 ...ma^{3}_{i}=\sigma^{z}_{i}$ and $i=1\dotsk
-                                                  $.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 Overfull \hbox (19.07722pt too wide) in paragraph at lines 181--199
 []$[]$ 
